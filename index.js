@@ -1,18 +1,9 @@
-const http=require('http')
-const requestListener = (req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' })
-    res.end('hello words')
-  }
-const server =http.createServer(requestListener)
-const port =3000
-server.listen(port,(err)=>{
-    if(err){
-        console.log('server is err',err)
-    }
-    else{
-        console.log('server  is running in port',port)
-    }
-
- 
-}
-)
+const express =require("express")
+const app=express()
+const port=3000
+app.get('/',(req,res)=>{
+    res.send('hello world')
+})
+app.listen(port,()=>{
+    console.log('server is running in port:', port)
+})
