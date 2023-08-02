@@ -1,6 +1,6 @@
 npm i nodemon
 npm i express
-
+npm i express-handlebars
 ______________
 setup eviroment
 1. npm init
