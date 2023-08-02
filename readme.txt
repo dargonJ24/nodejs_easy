@@ -2,8 +2,10 @@ I/EXTENTION
 - nodemon : auto retart app when have change
 - thunder client : test  get,post ,... http
 II/BUG
-import { engine } from 'express-handlebars';
+1.import { engine } from 'express-handlebars';
 => 
+2. err authe 
+=> delte <> arround password
 III/ CONCLUSTION
  MVC : 
  router : 
@@ -11,3 +13,6 @@ III/ CONCLUSTION
  - subsrouter : contain object subs
  controller : dividend  subs controller to process 
  function (resq,res) when point router
+.env : contain infomation conect mongodb
+IV/ Prolems
+- how acess mongodb  FROM other ip diffrent
