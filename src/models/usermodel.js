@@ -1,15 +1,19 @@
 import mongoose from "mongoose"; 
 const {Schema} =mongoose;
-const blogSchema = new Schema({
-  title: String, 
-  author: String,
-  body: String,
-  comments: [{ body: String, date: Date }],
-  date: { type: Date, default: Date.now },
-  hidden: Boolean,
-  meta: {
-    votes: Number,
-    favs: Number
+const userSchema = new Schema({
+  userName :{
+    type: String,
+    require:true,
+    unique:true,
+  },
+  password:{
+    type:String,
+    require:true,
+  },
+  name:{
+   type: String,
+   require:true,
+   unique:true,
   }
 });
-const blog=mongoose.model('blog',blogSchema)
+export const user=mongoose.model('User',userSchema)
