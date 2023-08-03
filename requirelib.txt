@@ -1,6 +1,7 @@
 npm i nodemon
 npm i express
 npm i express-handlebars
+npm i bcrypt
 ______________
 setup eviroment
 1. npm init

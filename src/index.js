@@ -10,13 +10,15 @@ dotenv.config()
 
 const app=express()
 const port=process.env.PORT
+app.use(express.json())
 // setup static file
 app.use(express.static('src/public'))
-//setup use handlebars
 
+//setup use handlebars
 app.engine('.hbs',engine({extname:'.hbs'})) // use exention hbs of handlebars
 app.set('view engine','hbs')
 app.set('views','./src/views')
+
 // connect mongoose
 //console.log('dotenv',process.env.MONGO_DB)
 mongoose.connect(process.env.MONGO_DB).then(()=>{
