@@ -1,0 +1,53 @@
+[33mcommit dd4d2f3c67e5f8ddde35b9d27a6370f0e8167faf[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Wed Aug 2 21:14:28 2023 +0700
+
+    create schema
+
+[33mcommit e6e65b69ed23ad93a7f7be4539dafe2be6c43171[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Wed Aug 2 20:18:01 2023 +0700
+
+    connect mongdb
+
+[33mcommit 26da4e64a2eca8b524a4adb01986a70274fa7961[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Wed Aug 2 18:59:35 2023 +0700
+
+    use  mvc controller
+
+[33mcommit 2c567b67f08b73d240d1612316a5c29e895d2f1d[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Wed Aug 2 16:35:02 2023 +0700
+
+    use stati  c file and handlebars
+
+[33mcommit 0d52369406dcab28acc56ab7cd1bd28e716edd6b[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Mon Jul 31 19:32:44 2023 +0700
+
+    use router
+
+[33mcommit adfaf1fc6dc37b7cdf832ed68eb94b4edb270d81[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Mon Jul 31 19:00:31 2023 +0700
+
+    use nodemon
+
+[33mcommit ebc2ab1d4376ecc16f6dc73e39c389c15a8926ba[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Mon Jul 31 18:53:27 2023 +0700
+
+    create server use express
+
+[33mcommit 69aedd6432cdb2126c37763d4fc32a961022ce1b[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Mon Jul 31 18:39:24 2023 +0700
+
+    use http
+
+[33mcommit 54614ea0642ebfaa6b19d898a4428d5dac0ac4db[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: dargonj24 <dargonj24@gmail.com>
+Date:   Mon Jul 31 18:15:27 2023 +0700
+
+    init project

@@ -28,5 +28,5 @@ mongoose.connect(process.env.MONGO_DB).then(()=>{
 
 routes(app)
 app.listen(port,()=>{
-    console.log('server is running in port:', port)
+    console.log('Server running at http://localhost:${port}')
 })
